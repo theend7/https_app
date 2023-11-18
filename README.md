@@ -1,1 +1,1 @@
-local angular app that will run though https protocol by default
+**npm run app** _(make sure you are in app_https dir, you must create cert.pem and key.pem files inside certs dir)_
