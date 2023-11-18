@@ -1,0 +1,1 @@
+local angular app that will run though https protocol by default
