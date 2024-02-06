@@ -1,5 +1,6 @@
 # Secure Angular App with HTTPS
 
+#Overview 
 This project aims to create a secure Angular application that will be served over HTTPS. HTTPS (Hypertext Transfer Protocol Secure) ensures secure communication between a client and a server by encrypting data. By serving the Angular app over HTTPS, we enhance security and protect sensitive information from potential attackers.
 
 # Project Features
