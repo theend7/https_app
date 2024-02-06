@@ -37,7 +37,6 @@ cd ../app_https
 6. Install dependencies:
 ```
 npm install
-
 ```
 7.Run the Angular app:
 ```
