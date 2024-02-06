@@ -13,35 +13,36 @@ _Angular CLI installed globally (npm install -g @angular/cli)_
 
 1. Clone this repository:
 ```
-git clone <repository_url>
-cd <repository_name>
+  git clone <repository_url>
+  cd <repository_name>
 ```
 2. Navigate to the certs directory:
 ```
-cd certs
+  cd certs
 ```
 3. Make the gencerts.sh script executable:
 ```
-chmod +x gencerts.sh
+  chmod +x gencerts.sh
 ```
 4. Run the script to generate SSL certificates:
 ```
-./gencerts.sh
+  ./gencerts.sh
 ```
-_This script will generate cert.pem and key.pem files required for serving the app over HTTPS._
+  _This script will generate cert.pem and key.pem files required for serving the app over HTTPS._
 
 5. Navigate to the app_https directory:
 ```
-cd ../app_https
+  cd ../app_https
 ```
 6. Install dependencies:
 ```
-npm install
+  npm install
 ```
 7.Run the Angular app:
 ```
-npm run app
+  npm run app
 ```
+
 _The Angular app will be served locally over HTTPS._
 
 ## Notes
