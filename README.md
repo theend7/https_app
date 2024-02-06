@@ -4,29 +4,17 @@ This project aims to create a secure Angular application that will be served ove
 
 # Project Features
 
-## 1. Secure Communication
+- **Secure Communication:** The application ensures secure communication between the client and server by utilizing HTTPS. This is achieved through the encryption of data, safeguarding sensitive information from potential security threats.
 
-The application ensures secure communication between the client and server by utilizing HTTPS. This is achieved through the encryption of data, safeguarding sensitive information from potential security threats.
+-**2. SSL Certificate Generation:** The project includes a script (`gencerts.sh`) to generate SSL certificates (`cert.pem` and `key.pem`). These certificates are crucial for establishing a secure connection over HTTPS. Follow the provided instructions to run the script and generate the necessary certificates.
 
-## 2. SSL Certificate Generation
+- **3. Easy Setup:** The project provides a straightforward setup process, allowing users to quickly clone the repository, generate SSL certificates, and run the Angular application locally over HTTPS. Clear and concise instructions guide users through each step.
 
-The project includes a script (`gencerts.sh`) to generate SSL certificates (`cert.pem` and `key.pem`). These certificates are crucial for establishing a secure connection over HTTPS. Follow the provided instructions to run the script and generate the necessary certificates.
+- **4. Prerequisites Check:** To ensure a smooth setup, the project includes a list of prerequisites. Users are prompted to have Node.js installed on their machines and the Angular CLI installed globally before proceeding with the setup process.
 
-## 3. Easy Setup
+- **5. Development Environment Considerations:** The notes section emphasizes the importance of configuring the development environment appropriately, especially when working with self-signed certificates. Users are advised to follow the provided guidance to address any potential issues related to self-signed certificates during development.
 
-The project provides a straightforward setup process, allowing users to quickly clone the repository, generate SSL certificates, and run the Angular application locally over HTTPS. Clear and concise instructions guide users through each step.
-
-## 4. Prerequisites Check
-
-To ensure a smooth setup, the project includes a list of prerequisites. Users are prompted to have Node.js installed on their machines and the Angular CLI installed globally before proceeding with the setup process.
-
-## 5. Development Environment Considerations
-
-The notes section emphasizes the importance of configuring the development environment appropriately, especially when working with self-signed certificates. Users are advised to follow the provided guidance to address any potential issues related to self-signed certificates during development.
-
-## 6. Enhanced User Experience
-
-By serving the Angular application over HTTPS, the project aims to provide a safer and more secure browsing experience for users. The encryption of data transmission adds an extra layer of protection, instilling confidence in users while interacting with the application.
+- **6. Enhanced User Experience:** By serving the Angular application over HTTPS, the project aims to provide a safer and more secure browsing experience for users. The encryption of data transmission adds an extra layer of protection, instilling confidence in users while interacting with the application.
 
 ## Getting started
 _To set up and run this project, follow these steps:_
