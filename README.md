@@ -38,7 +38,7 @@ _Angular CLI installed globally (npm install -g @angular/cli)_
 ```
   npm install
 ```
-7.Run the Angular app:
+7. Run the Angular app:
 ```
   npm run app
 ```
