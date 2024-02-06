@@ -6,7 +6,7 @@ This project aims to create a secure Angular application that will be served ove
 
 - **Secure Communication:** The application ensures secure communication between the client and server by utilizing HTTPS. This is achieved through the encryption of data, safeguarding sensitive information from potential security threats.
 
--**2. SSL Certificate Generation:** The project includes a script (`gencerts.sh`) to generate SSL certificates (`cert.pem` and `key.pem`). These certificates are crucial for establishing a secure connection over HTTPS. Follow the provided instructions to run the script and generate the necessary certificates.
+- **SSL Certificate Generation:** The project includes a script (`gencerts.sh`) to generate SSL certificates (`cert.pem` and `key.pem`). These certificates are crucial for establishing a secure connection over HTTPS. Follow the provided instructions to run the script and generate the necessary certificates.
 
 - **3. Easy Setup:** The project provides a straightforward setup process, allowing users to quickly clone the repository, generate SSL certificates, and run the Angular application locally over HTTPS. Clear and concise instructions guide users through each step.
 
